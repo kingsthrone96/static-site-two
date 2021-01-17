@@ -1,0 +1,168 @@
+
+@import "../../globalStyle/globalStyle.scss";
+
+#navTop {
+  z-index: 1;
+  transition: .3s ease-out;
+
+  #navTopContainer {
+    #headingTitle {
+      margin-left: 15px;
+      a {
+        text-decoration: none;
+        color: $primaryColor;
+        font-size: 35px;
+        font-style: italic;
+      }
+    }
+    
+    #navArea {
+      margin-right: 15px;
+      ul {
+        li {
+          list-style: none;
+          overflow: hidden;
+
+          a {
+            text-decoration: none;
+            padding: 10px 15px;
+            transition: 200ms;
+            font-weight: 600;
+            color: lighten($primaryColor, $amount: 10);
+
+            &:hover {
+              color: darken($color: $primaryColor, $amount: 8);
+
+            }
+          }
+        }
+      }
+    }
+
+    #overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: #000;
+      opacity: .7;
+      display: none;
+    }
+
+    #sideNav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      width: 0;
+      background: lighten($secondaryColor, $amount: 10);
+      transition: 400ms;
+      padding-top: 15px;
+    
+      a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 13px;
+        width: 260px !important;
+        padding: 10px 22px 10px 15px;
+        display: block;
+        font-weight: 500;
+    
+        &:hover {
+          background: $primaryColor;
+        }
+      }
+    }
+  }
+}
+
+.nav-default {
+  background: transparent;
+  padding: 18px 0;
+}
+
+.nav-onscroll {
+  background-color: $secondaryColor;
+  padding: 9px 0;
+}
+
+.nav-btn-default {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transform: rotateZ(90deg);
+  position: fixed;
+  right: 30px;
+  z-index: 1;
+
+
+  div {
+    border-right: 3px $primaryColor solid;
+    width: 3px;
+    height: 20px;
+    margin: 0 1px;
+  }
+}
+
+.nav-btn-onclick {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transform: rotateZ(90deg);
+  position: fixed;
+  right: 30px;
+  z-index: 1;
+
+  div {
+    border-right: 3px $primaryColor solid;
+    width: 5px;
+    height: 20px;
+    position: absolute;
+  }
+
+  div:nth-child(3) {
+    display: none;
+  }
+  
+  div:nth-child(1) {
+    transform: rotateZ(45deg);
+    
+  }
+
+  div:nth-child(2) {
+    transform: rotateZ(-45deg) translate(-1px, 1px);
+  }
+
+}
+
+
+
+
+@media(min-width: 769px) {
+  #navTop {
+    #navTopContainer {
+      #navBtn {
+        display: none !important;
+      }
+    }
+  }
+}
+
+@media(max-width: 768px) {
+  #navTop {
+    #navTopContainer {
+      #navArea {
+        display: none;
+      }
+    }
+  }
+}

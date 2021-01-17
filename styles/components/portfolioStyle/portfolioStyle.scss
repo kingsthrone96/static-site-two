@@ -1,0 +1,139 @@
+
+@import "../../globalStyle/globalStyle.scss";
+
+#portfolio {
+  #portfolioContainer {
+    #content {
+      #portfolioHeading {
+        background:  url('../../../images/lake_house_mountains_124286_2560x1080.jpg') no-repeat;
+        background-position: center center;
+        background-size: cover;
+        min-height: 500px;
+
+        #overlayContainer {
+          .hc-col-8 {
+            margin-top: 100px;
+            #innerContent {
+              line-height: 1.5;
+              p {
+                color: $primaryColor;
+              }
+              
+              h1 {
+                color: #fff;
+                font-size: 50px;
+
+                span {
+                  color: $primaryColor;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      #portfolioItems {
+        padding: 60px 0;
+        #headingTitle {
+          padding-bottom: 40px;
+          text-align: center;
+          h1 {
+            font-size: 28px;
+          }
+
+          hr {
+            color: $primaryColor;
+          }
+
+          p {
+            font-size: 14px;
+            padding: 10px 0;
+          }
+        }
+        #container {
+          .hc-col-12 {
+            flex-wrap: wrap;
+            padding-top: 20px;
+
+            .hc-col-4 {
+              .img-container {
+                width: 100%;
+                height: 230px;
+                overflow: hidden;
+                img {
+                  width: 100%;
+                  height: 100%;
+                  object-fit: cover;
+                  transition: 500ms;
+
+                  &:hover {
+                    transform: scale(1.2);
+                  }
+                  
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 700px) {
+  #portfolio {
+    #portfolioContainer {
+      #content {
+        #portfolioItems {
+          #container {
+            .hc-col-12 {
+              .hc-col-4 {
+                width: 49.98% !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 550px) {
+  #portfolio {
+    #portfolioContainer {
+      #content {
+        #portfolioHeading {
+          #overlayContainer {
+            .hc-col-8 {
+              width: 99.93% !important;
+              #innerContent {
+                text-align: center !important;
+                h1 {
+                  font-size: 40px !important;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 500px) {
+  #portfolio {
+    #portfolioContainer {
+      #content {
+        #portfolioItems {
+          #container {
+            .hc-col-12 {
+              .hc-col-4 {
+                width: 99.93% !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

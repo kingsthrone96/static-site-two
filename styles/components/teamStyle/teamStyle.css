@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #585858;
+}
+
+button:focus, button:active {
+  outline: none;
+}
+
+#team {
+  padding: 60px 0 30px 0;
+}
+
+#team #teamContainer #content #headingTitle {
+  text-align: center;
+}
+
+#team #teamContainer #content #headingTitle h1 {
+  font-size: 28px;
+}
+
+#team #teamContainer #content #headingTitle hr {
+  color: #ffc400;
+}
+
+#team #teamContainer #content #headingTitle p {
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+#team #teamContainer #content #membersArea {
+  margin-top: 60px;
+}
+
+#team #teamContainer #content #membersArea .hc-col-3 .member {
+  padding: 0 15px;
+  text-align: center;
+}
+
+#team #teamContainer #content #membersArea .hc-col-3 .member .img-container {
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+#team #teamContainer #content #membersArea .hc-col-3 .member .img-container img {
+  width: 100%;
+}
+
+#team #teamContainer #content #membersArea .hc-col-3 .member h4 {
+  color: #555555;
+  font-size: 18x;
+}
+
+#team #teamContainer #content #membersArea .hc-col-3 .member span {
+  font-style: italic;
+  color: #555555;
+  font-weight: 400;
+}
+
+#team #teamContainer #content #membersArea .hc-col-3 .member .social {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+#team #teamContainer #content #membersArea .hc-col-3 .member .social i {
+  margin: 0 3px;
+  color: #ffc400;
+}
+
+@media (max-width: 768px) {
+  #team #teamContainer #content #membersArea {
+    -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+  }
+  #team #teamContainer #content #membersArea .hc-col-3 {
+    width: 49.98% !important;
+    margin-bottom: 30px !important;
+  }
+}
+
+@media (max-width: 427px) {
+  #team #teamContainer #content #membersArea .hc-col-3 {
+    width: 99.93% !important;
+  }
+}
+/*# sourceMappingURL=teamStyle.css.map */

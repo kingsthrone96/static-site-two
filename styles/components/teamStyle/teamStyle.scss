@@ -1,0 +1,98 @@
+
+@import "../../globalStyle/globalStyle.scss";
+
+#team {
+  padding: 60px 0 30px 0;
+
+  #teamContainer {
+    #content {
+      #headingTitle {
+        text-align: center;
+
+        h1 {
+          font-size: 28px;
+        }
+
+        hr {
+          color: $primaryColor;
+        }
+
+        p {
+          padding: 10px 0;
+          font-size: 14px;
+        }
+      }
+
+      #membersArea {
+        margin-top: 60px;
+        .hc-col-3 {
+          .member {
+            padding: 0 15px;
+            text-align: center;
+            
+            
+            .img-container {
+              margin-bottom: 15px;
+              overflow: hidden;
+
+              img {
+                width: 100%;
+              }
+            }
+
+            h4 {
+              color: #555555;
+              font-size: 18x;
+            }
+
+            span {
+              font-style: italic;
+              color: #555555;
+              font-weight: 400;
+            }
+
+            .social {
+              font-size: 20px;
+              margin-top: 20px;
+              
+              i {
+                margin: 0 3px;
+                color: $primaryColor;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 768px) {
+  #team {
+    #teamContainer {
+      #content {
+        #membersArea {
+          flex-wrap: wrap !important;
+          .hc-col-3 {
+            width: 49.98% !important;
+            margin-bottom: 30px !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 427px) {
+  #team {
+    #teamContainer {
+      #content {
+        #membersArea {
+          .hc-col-3 {
+            width: 99.93% !important;
+          }
+        }
+      }
+    }
+  }
+}

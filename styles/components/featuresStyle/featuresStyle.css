@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #585858;
+}
+
+button:focus, button:active {
+  outline: none;
+}
+
+#features {
+  background-color: #474747;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#features #featuresContainer #content #headingTitle {
+  line-height: 1.7;
+}
+
+#features #featuresContainer #content #headingTitle cite {
+  color: #ffc400;
+}
+
+#features #featuresContainer #content #headingTitle h1 {
+  color: #fff;
+  font-size: 28px;
+}
+
+#features #featuresContainer #content #headingTitle hr {
+  color: #ffc400;
+}
+
+#features #featuresContainer #content #headingIntro .hc-col-10 #introText {
+  padding: 20px 0;
+  margin: 10px 0;
+  line-height: 1.7;
+}
+
+#features #featuresContainer #content #headingIntro .hc-col-10 #introText p {
+  font-size: 14px;
+}
+
+#features #featuresContainer #content #feature-hr {
+  border-bottom: 1px #929292 solid;
+  margin: 15px 0;
+}
+
+#features #featuresContainer #content #featureItems {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 60px;
+  padding-bottom: 10px;
+}
+
+#features #featuresContainer #content #featureItems .hc-col-4 .container {
+  text-align: center;
+  padding: 0 20px 50px 20px;
+  line-height: 1.7;
+  color: #fff;
+}
+
+#features #featuresContainer #content #featureItems .hc-col-4 .container .iconContainer {
+  width: 80px;
+  height: 80px;
+  background: #fff;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+#features #featuresContainer #content #featureItems .hc-col-4 .container .iconContainer i {
+  font-size: 40px;
+  color: #ffc400;
+}
+
+#features #featuresContainer #content #featureItems .hc-col-4 .container .feature-title {
+  font-size: 21px;
+  color: #ffc400;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+#features #featuresContainer #content #featureItems .hc-col-4 .container .feature-p-text {
+  font-size: 14px;
+}
+
+#features #featuresContainer #content #featureButton {
+  border: 1px #ffc400 solid;
+  background: transparent;
+  font-size: 16px;
+  padding: 8px 40px;
+  font-weight: 500;
+  border-radius: 20px;
+  cursor: pointer;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+  color: #fff;
+}
+
+#features #featuresContainer #content #featureButton:hover {
+  background: #ffc400;
+}
+
+@media (max-width: 768px) {
+  #features #featuresContainer #content #featureItems .hc-col-4 {
+    width: 49.98% !important;
+  }
+}
+
+@media (max-width: 550px) {
+  #features #featuresContainer #content #featureItems .hc-col-4 {
+    width: 99.93% !important;
+  }
+}
+
+@media (max-width: 400px) {
+  #features #featuresContainer #content #featureItems .hc-col-4 .container {
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+  }
+}
+/*# sourceMappingURL=featuresStyle.css.map */

@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #585858;
+}
+
+button:focus, button:active {
+  outline: none;
+}
+
+#heading {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(47, 47, 47, 0.9)), to(rgba(12, 65, 78, 0.2))), url("../../../images/city_buildings_water_152123_1280x720.jpg") no-repeat;
+  background: linear-gradient(to right, rgba(47, 47, 47, 0.9), rgba(12, 65, 78, 0.2)), url("https://images.wallpaperscraft.com/image/plantation_rice_agriculture_128917_1366x768.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+#heading #headingContainer #content {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+#heading #headingContainer #content #contentContainer {
+  line-height: 2;
+}
+
+#heading #headingContainer #content #contentContainer h1 {
+  font-size: 50px;
+  color: #ffc400;
+  letter-spacing: 3px;
+}
+
+#heading #headingContainer #content #contentContainer p {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+#heading #headingContainer #content #contentContainer button {
+  font-size: 16px;
+  padding: 8px 15px;
+  font-weight: 500;
+  border-radius: 3px;
+  cursor: pointer;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+}
+
+#heading #headingContainer #content #contentContainer #tell-me-more {
+  border: 1px #ffc400 solid;
+  background: #ffc400;
+  color: #f4f4f4;
+  margin-right: 5px;
+}
+
+#heading #headingContainer #content #contentContainer #join-us-now {
+  color: #f4f4f4;
+  border: 1px #ffc400 solid;
+  background: transparent;
+}
+
+#heading #headingContainer #content #contentContainer #join-us-now:hover {
+  background: #ffc400;
+}
+
+@media (max-width: 550px) {
+  #heading #headingContainer .hc-col-7 {
+    width: 99.93% !important;
+    text-align: center !important;
+  }
+}
+/*# sourceMappingURL=headingStyle.css.map */

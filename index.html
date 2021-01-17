@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./styles/helper/helperClasses.css">
+  <link rel="stylesheet" href="./styles/globalStyle/globalStyle.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  
+  <!--*Components css links-->
+  <link rel="stylesheet" href="./styles/components/navStyle/navStyle.css">
+  <link rel="stylesheet" href="./styles/components/headingStyle/headingStyle.css">
+  <link rel="stylesheet" href="./styles/components/aboutStyle/aboutStyle.css">
+  <link rel="stylesheet" href="./styles/components/featuresStyle/featuresStyle.css">
+  <link rel="stylesheet" href="./styles/components/portfolioStyle/portfolioStyle.css">
+  <link rel="stylesheet" href="./styles/components/teamStyle/teamStyle.css">
+  <link rel="stylesheet" href="./styles/components/contactStyle/contactStyle.css">
+  <title>Project 2</title>
+</head>
+<body>
+
+  <nav id="navTop" class="hc-pos-fixed hc-full-width hc-top-0 hc-left-0 hc-right-0 hc-d-block">
+    <div id="navTopContainer" class="hc-container hc-d-flex hc-justify-content-sb hc-align-items-center">
+      <div id="headingTitle">
+        <a href="#">BizSite</a>
+      </div>
+      <div id="navArea">
+        <ul class="hc-d-flex">
+          <li class="nav-items"><a href="#heading">HOME</a></li>
+          <li class="nav-items"><a href="#about">ABOUT</a></li>
+          <li class="nav-items"><a href="#features">FEATURES</a></li>
+          <li class="nav-items"><a href="#portfolio">PORTFOLIO</a></li>
+          <li class="nav-items"><a href="#team">TEAM</a></li>
+          <li class="nav-items"><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+      <div id="navBtn" class="nav-btn-default">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div id="overlay"></div>
+      <div id="sideNav">
+          <a href="#">HOME</a>
+          <a href="#about">ABOUT</a>
+          <a href="#features">FEATURES</a>
+          <a href="#portfolio">PORTFOLIO</a>
+          <a href="#team">TEAM</a>
+          <a href="#contact">CONTACT</a>
+      </div>
+    </div>
+  </nav>
+
+  <!--*Heading section-->
+  <div id="heading" class="hc-pos-abs hc-vw-100">
+    <div id="headingContainer" class="hc-container hc-vh-100 hc-d-block">
+     <div id="content" class="hc-col-7">
+        <div id="contentContainer">
+          <h1>WELCOME</h1>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa laborum ullam veniam voluptates excepturi pariatur.</p>
+          <button id="tell-me-more">TELL ME MORE</button>
+          <button id="join-us-now">JOIN US NOW</button>
+        </div>
+     </div>
+    </div>
+  </div>
+
+  <!--*About section-->
+  <div id="about">
+    <div id="aboutContainer" class="hc-container">
+      <div id="content">
+        <div id="headingTitle" class="hc-full-width">
+          <h1 class="hc-text-center">ABOUT US</h1>
+          <hr class="hc-heading-title-underline">
+          <br>
+        </div>
+        <div id="aboutIntro">
+          <p><span>Lorem ipsum</span> dolor sit amet consectetur adipisicing elit. Eveniet asperiores quo, rerum facere doloribus accusantium sint nobis adipisci ab veritatis vero amet ipsam iusto tempore deserunt, itaque neque assumenda doloremque!</p>
+          <br>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quo, rerum facere doloribus accusantium sint nobis adipisci ab veritatis vero amet ipsam iusto tempore deserunt, itaque neque assumenda doloremque!</p>
+        </div>
+        <div id="contentCards" class="hc-d-flex hc-justify-content-center">
+          <div class="hc-col-4">
+            <div class="card-content hc-d-block">
+              <div class="img-container" class="hc-full-width">
+                <img src="./images/coffee_book_glasses_140830_1280x720.jpg" alt="">
+              </div>
+              <div class="icon-container">
+                <i class="fas fa-book"></i>
+              </div>
+              <p class="card-title">Our Mission</p>
+              <p class="card-p-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, quo nobis, itaque perferendis ducimus consequatur ullam blanditiis possimus dolorum moles.</p>
+            </div>
+          </div>
+          <div class="hc-col-4">
+              <div class="card-content hc-d-block">
+                <div class="img-container" class="hc-full-width">
+                  <img src="./images/camera_lens_grass_146546_1280x720.jpg" alt="">
+                </div>
+                <div class="icon-container">
+                  <i class="fas fa-book"></i>
+                </div>
+                <p class="card-title">Our Mission</p>
+                <p class="card-p-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, quo nobis, itaque perferendis ducimus consequatur ullam blanditiis possimus dolorum moles.</p>
+              </div>
+            </div>
+            <div class="hc-col-4">
+            <div class="card-content hc-d-block">
+              <div class="img-container" class="hc-full-width">
+                <img src="./images/forest_snow_winter_91512_1280x720~01.jpg" alt="">
+              </div>
+              <div class="icon-container">
+                <i class="fas fa-book"></i>
+              </div>
+              <p class="card-title">Our Mission</p>
+              <p class="card-p-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, quo nobis, itaque perferendis ducimus consequatur ullam blanditiis possimus dolorum moles.</p>
+            </div>
+          </div>
+        </div>
+    </div>
+    </div>
+  </div>
+
+  <div id="features">
+    <div id="featuresContainer" class="hc-container">
+      <div id="content">
+        <div id="headingTitle" class="hc-d-block hc-text-center">
+          <cite class="hc-text-white">Adipisicing elit fugit nihil.</cite>
+          <h1 class="hc-fit-x hc-m-lr-auto">FEATURES</h1>
+          <hr class="hc-heading-title-underline">
+        </div>
+        <div id="headingIntro">
+          <div class="hc-col-10 hc-m-lr-auto">
+            <div id="introText" class="hc-text-center hc-text-white">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet suscipit deserunt, aut sapiente illum aliquid. Minus nulla tenetur dolor culpa dicta dolores quam temporibus, at labore maxime dolore reiciendis quas.</p>
+            </div>
+          </div>
+        </div>
+        <div id="feature-hr" class="hc-pos-abs hc-text-white hc-left-0 hc-right-0"></div>
+        <div id="featureItems" class="hc-d-flex">
+          <div class="hc-col-4">
+            <div class="container">
+              <div class="iconContainer">
+                <i class="fas fa-rocket"></i>
+              </div>
+              <p class="feature-title">Design</p>
+              <p class="feature-p-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi consequuntur nihil, laborum mollitia nemo vero?</p>
+            </div>
+          </div>
+          <div class="hc-col-4">
+            <div class="container">
+              <div class="iconContainer">
+                <i class="fas fa-bell"></i>
+              </div>
+              <p class="feature-title">Innovation</p>
+              <p class="feature-p-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi consequuntur nihil, laborum mollitia nemo vero?</p>
+            </div>
+          </div>
+          <div class="hc-col-4">
+            <div class="container">
+              <div class="iconContainer">
+                <i class="fas fa-mobile"></i>
+              </div>
+              <p class="feature-title">Responsive</p>
+              <p class="feature-p-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi consequuntur nihil, laborum mollitia nemo vero?</p>
+            </div>
+          </div>
+          <div class="hc-col-4">
+            <div class="container">
+              <div class="iconContainer">
+                <i class="fas fa-book"></i>
+              </div>
+              <p class="feature-title">Education</p>
+              <p class="feature-p-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi consequuntur nihil, laborum mollitia nemo vero?</p>
+            </div>
+          </div>
+          <div class="hc-col-4">
+            <div class="container">
+              <div class="iconContainer">
+                <i class="fas fa-info"></i>
+              </div>
+              <p class="feature-title">information</p>
+              <p class="feature-p-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi consequuntur nihil, laborum mollitia nemo vero?</p>
+            </div>
+          </div>
+          <div class="hc-col-4">
+            <div class="container">
+              <div class="iconContainer">
+                <i class="fas fa-rocket"></i>
+              </div>
+              <p class="feature-title">Custom Design</p>
+              <p class="feature-p-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi consequuntur nihil, laborum mollitia nemo vero?</p>
+            </div>
+          </div>
+        </div>
+        <div id="buttonArea" class="hc-d-flex hc-justify-content-center">
+          <button id="featureButton">SEE MORE</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--*portfolio section-->
+  <section id="portfolio">
+    <div id="portfolioContainer">
+      <div id="content">
+        <div id="portfolioHeading" class="hc-vw-100">
+          <div id="overlayContainer" class="hc-container">
+            <div class="hc-col-8">
+              <div id="innerContent" class="hc-d-block">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h1>TRANSFORM YOUR <span>IDEAS</span> INTO <span>REALITY</span></h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="portfolioItems">
+          <div id="container">
+            <div id="headingTitle" class="hc-container hc-d-block">
+              <h1 class="hc-text-center">Portfolio</h1>
+              <hr class="hc-heading-title-underline">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, delectus? Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="hc-col-12 hc-d-flex">
+              <div class="hc-col-4">
+                <div class="img-container">
+                  <img src="./images/guitar_hand_strings_122915_1280x720.jpg" alt="">
+                </div>
+              </div>
+              <div class="hc-col-4">
+                <div class="img-container">
+                  <img src="./images/forest_snow_winter_91512_1280x720~01.jpg" alt="">
+                </div>
+              </div>
+              <div class="hc-col-4">
+                <div class="img-container">
+                  <img src="./images/coffee_book_glasses_140830_1280x720.jpg" alt="">
+                </div>
+              </div>
+              <div class="hc-col-4">
+                <div class="img-container">
+                  <img src="./images/tree_decoration_ribbon_149821_1280x720.jpg" alt="">
+                </div>
+              </div>
+              <div class="hc-col-4">
+                <div class="img-container">
+                  <img src="./images/marshmallows_cup_drink.jpg" alt="">
+                </div>
+              </div>
+              <div class="hc-col-4">
+                <div class="img-container">
+                  <img src="./images/c16b3483-3f6a-433b-acdf-f5ded8beba79.jpg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--*Team section-->
+  <section id="team">
+    <div id="teamContainer" class="hc-container">
+      <div id="content" class="hc-d-block">
+        <div id="headingTitle">
+          <h1>Meet Our Team</h1>
+          <hr class="hc-heading-title-underline">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni et ipsum deserunt reprehenderit, exercitationem consequatur.</p>
+        </div>
+        <div id="membersArea" class="hc-col-12 hc-d-flex">
+          <div class="hc-col-3">
+            <div class="member">
+              <div class="img-container">
+                <img src="./images/girl2.png" alt="">
+              </div>
+              <h4>John Doe</h4>
+              <span>Developer</span>
+              <div class="social">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-google-plus"></i>
+              </div>
+            </div>
+          </div>
+          <div class="hc-col-3">
+            <div class="member">
+              <div class="img-container">
+                <img src="./images/boy1.jpg" alt="">
+              </div>
+              <h4>Terry Roberts</h4>
+              <span>Designer / Developer</span>
+              <div class="social">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-google-plus"></i>
+              </div>
+            </div>
+          </div>
+          <div class="hc-col-3">
+            <div class="member">
+              <div class="img-container">
+                <img src="./images/girl2.png" alt="">
+              </div>
+              <h4>Kate Anderson</h4>
+              <span>Accountant</span>
+              <div class="social">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-google-plus"></i>
+              </div>
+            </div>
+          </div>
+          <div class="hc-col-3">
+            <div class="member">
+              <div class="img-container">
+                <img src="./images/girl1.jpeg" alt="">
+              </div>
+              <h4>Gwen Smith</h4>
+              <span>Freelancer / Developer</span>
+              <div class="social">
+                <a href=""><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fab fa-linkedin"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-google-plus"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--*Contact section-->
+  <div id="contact" class="hc-bg-light-dim">
+    <div id="contactContainer" class="hc-container">
+      <div id="content">
+        <div id="headingTitle" class="hc-text-center">
+          <h1>Let's Get In Touch</h1>
+          <hr class="hc-heading-title-underline">
+          <br>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita nulla quidem molestiae iste ipsa a. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, error.</p>
+        </div>
+        <div id="socialArea" class="hc-d-flex hc-justify-content-center">
+          <div class="hc-col-3">
+            <div class="container">
+              <div class="icon">
+                <i class="fas fa-home"></i>
+              </div>
+              <div>165 Corner Street</div>
+            </div>
+          </div>
+          <div class="hc-col-3">
+            <div class="container">
+              <div class="icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div>+1 (115) 555-0349</div>
+            </div>
+          </div>
+          <div class="hc-col-3">
+            <div class="container">
+              <div class="icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div><a href="#">myWeb@email.com</a></div>
+            </div>
+          </div>
+        </div>
+        <div id="formArea">
+          <div id="formContainer" class="hc-container hc-m-lr-auto">
+            <form class="hc-d-block">
+              <div id="formRow" class="hc-d-flex">
+                <input type="text" id="name" name="name" placeholder="Your Name" class="hc-col-6">
+                <input type="email" id="email" name="email" placeholder="Your Email" class="hc-col-6">
+              </div>
+              <br>
+              <input type="text" id="subject" name="subject" placeholder="Subject" class="hc-col-12">
+              <br>
+              <br>
+              <textarea name="message" id="message" rows="10" placeholder="Message" class="hc-col-12"></textarea>
+              <br>
+              <button type="submit" id="submitFormBtn">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="hc-bg-light-dim">
+    <div id="container" class="hc-container">
+      <div id="copy">
+        &copy; <span>BIZSITE</span> ALL RIGHTS RESERVE 2019
+      </div>
+      <p>Designed by <span>Keep On track</span></p>
+    </div>
+  </footer>
+
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>

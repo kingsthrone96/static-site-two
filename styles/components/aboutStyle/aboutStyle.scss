@@ -1,0 +1,131 @@
+
+@import "../../globalStyle/globalStyle.scss";
+
+#about {
+  margin-top: 100vh;
+  padding-top: 60px;
+
+  #aboutContainer {
+    #content {
+      #headingTitle {
+        margin-bottom: 30px;
+        h1 {
+          font-size: 28px;
+        }
+
+        hr {
+          color: $primaryColor
+        }
+      }
+
+      #aboutIntro {
+        margin-bottom: 20px;
+
+        p {
+          color: #4d4d4d;
+          line-height: 1.7;
+
+          span {
+            color: $primaryColor;
+            font-size: 25px;
+            font-style: italic;
+            font-weight: 600;
+          }
+        }
+      }
+
+      #contentCards {
+        padding-top: 30px;
+        padding-bottom: 60px;
+        .hc-col-4 {
+          border: 1px #dddddd solid;
+          margin: 0 10px;
+          
+          .card-content {
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.7;
+            .img-container {
+              width: 100%;
+
+              img {
+                width: 100%;
+                
+              }
+            }
+
+            .icon-container {
+              position: absolute;
+              margin-top: -40px !important;
+              width: 70px;
+              height: 70px;
+              border-radius: 50%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              border: 3px #fff solid;
+              background-color: $primaryColor;
+              margin: auto;
+
+              i {
+                color: #fff;
+                font-size: 35px;
+              }
+
+            }
+
+            .card-title {
+              font-size: 20px;
+              font-weight: 600;
+              width: fit-content;
+              margin: auto;
+            }
+
+            .card-p-text {
+              padding: 20px;
+              font-size: 14px;
+              color: #4d4d4d;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media(max-width: 790px) {
+  #about {
+    #aboutContainer {
+      #content {
+        #contentCards {
+          display: block !important;
+
+          .hc-col-4 {
+            width: 90% !important;
+            margin: auto !important;
+            margin-bottom: 40px !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 768px) {
+  #about {
+    #aboutContainer {
+      #content {
+        #contentCards {
+          display: block !important;
+
+          .hc-col-4 {
+            width: 100% !important;
+            margin: auto !important;
+            margin-bottom: 40px !important;
+          }
+        }
+      }
+    }
+  }
+}
